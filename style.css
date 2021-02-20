@@ -1,0 +1,48 @@
+body {
+	background-color: #f9eac3;
+	font-family: Montserrat;
+}
+
+h1 {
+	font-family: Lora;
+	text-align: center;
+	/*display: inline-block;*/
+}
+
+a {
+	text-decoration: underline;
+	color: black;
+}
+
+.current {
+	position: relative;
+	bottom:10px;
+	top:10px;
+	left:10px;
+	right:10px;
+	display: flex;
+}
+
+.currently-reading img {
+	/*padding-bottom: 10px;
+	border-bottom: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: grey; */
+
+	width: 200px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	display: flex;
+	float: left;
+	}
+
+
+}
+
+.buku1 img {
+	width: 200px;
+}
+
+.older-reading img {
+	width: 150px;
+}
+
